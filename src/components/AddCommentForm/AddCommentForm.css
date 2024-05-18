@@ -1,0 +1,68 @@
+/* AddCommentForm.css */
+
+.add-comment-form {
+    margin-bottom: 20px;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 80%;
+    border: 0.5px solid #ccc;
+}
+
+.avatar {
+    margin-right: 8px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.form-input,
+.form-textarea-comment {
+    padding: 8px;
+    border: 1px solid #0a0909;
+    border-radius: 10px;
+}
+
+.form-button {
+    background-color: #754ddf;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 11px;
+}
+
+.form-button:hover {
+    background-color: #45a049;
+}
+
+.form-textarea-comment {
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1127px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .avatar {
+        margin: 0 auto 8px auto; 
+    }
+
+    .form-button {
+        margin-top: 8px; 
+    }
+}
